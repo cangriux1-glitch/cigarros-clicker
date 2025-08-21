@@ -1,0 +1,38 @@
+#letra{
+position: absolute;
+top: 10px;
+left: 20px;
+}
+
+#btnIrATab2{
+position: relative;
+top: 300px;
+left: 650px;
+}
+#btnVolverATab1{
+position: absolute;
+top: 100px;
+left: 1200px;
+}
+body {
+    height: 100vh;            /* Ocupa toda la altura de la pantalla */             /* Activamos flexbox */     /* Centrado vertical */
+    margin: 0;    
+    position: relative;             /* Quitamos los márgenes del body */}
+.tab { display: none; }       
+.tab.activa { display: block; }
+#b1{
+    position: relative;
+    margin: 0%;
+    width: 120px;
+    height: 120px;
+    background-image: url('cigarrete.png'); /* 🌄 Imagen de fondo */
+    background-size: cover;             /* 🔍 Ajusta la imagen al tamaño del botón */
+    border: none;                        /* ❌ Sin borde */
+    cursor: pointer;                     /* 🖱 Cambia el cursor al pasar encima */
+    top: 300px;
+    left: 650px;
+     background-color: transparent; /* quita color de fondo */
+}
+#bp{
+display: none  
+}
